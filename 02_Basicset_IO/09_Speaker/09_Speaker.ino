@@ -21,8 +21,78 @@ void playmusic(){
   delay(250);
   ledcWriteTone(spkrPin, MI);
   delay(250);
+  ledcWriteTone(spkrPin, FA);
+  delay(250);
+  ledcWriteTone(spkrPin, MI);
+  delay(250);
+  ledcWriteTone(spkrPin, RE);
+  delay(250);
+  ledcWriteTone(spkrPin, DO);
+  delay(250);
   ledcWriteTone(spkrPin, 0); // no sound
   delay(250);
+  ledcWriteTone(spkrPin, MI);
+  delay(250);
+  ledcWriteTone(spkrPin, FA);
+  delay(250);
+  ledcWriteTone(spkrPin, SO);
+  delay(250);
+  ledcWriteTone(spkrPin, RA);
+  delay(250);
+  ledcWriteTone(spkrPin, SO);
+  delay(250);
+  ledcWriteTone(spkrPin, FA);
+  delay(250);
+  ledcWriteTone(spkrPin, MI);
+  delay(250);
+  ledcWriteTone(spkrPin, 0); // no sound
+  delay(250);
+  ledcWriteTone(spkrPin, DO);
+  delay(250);
+  ledcWriteTone(spkrPin, 0);
+  delay(250);
+  ledcWriteTone(spkrPin, DO);
+  delay(250);
+  ledcWriteTone(spkrPin, 0);
+  delay(250);
+  ledcWriteTone(spkrPin, DO);
+  delay(250);
+  ledcWriteTone(spkrPin, 0);
+  delay(250);
+  ledcWriteTone(spkrPin, DO);
+  delay(250);
+  ledcWriteTone(spkrPin, 0);
+  delay(250);
+
+  ledcWriteTone(spkrPin, DO);
+  delay(125);
+  ledcWriteTone(spkrPin, DO);
+  delay(125);
+  ledcWriteTone(spkrPin, RE);
+  delay(125);
+  ledcWriteTone(spkrPin, RE);
+  delay(125);
+  ledcWriteTone(spkrPin, MI);
+  delay(125);
+  ledcWriteTone(spkrPin, MI);
+  delay(125);  
+  ledcWriteTone(spkrPin, FA);
+  delay(125);
+  ledcWriteTone(spkrPin, FA);
+  delay(125);  
+  ledcWriteTone(spkrPin, MI);
+  delay(125);
+  ledcWriteTone(spkrPin, 0); // no sound
+  delay(125);
+  ledcWriteTone(spkrPin, RE);
+  delay(125);
+  ledcWriteTone(spkrPin, 0); // no sound
+  delay(125);
+  ledcWriteTone(spkrPin, DO);
+  delay(125);
+  ledcWriteTone(spkrPin, 0); // no sound
+  delay(125);
+
 }
 
 void setup() {
