@@ -13,7 +13,7 @@ void setup() {
 void loop() {
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
-  digitalWrite(trigPin, HIGH); //Ultrasonic output
+  digitalWrite(trigPin, HIGH); //Ultrasonic output　超音波センサー出力
   delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
 
@@ -22,7 +22,7 @@ void loop() {
   Distance = Duration*340*100/1000000; //Set sonic speed to 340 m/s
 
   //Look at the serial monitor
-  Serial.print("Distance:");
+  Serial.print("距離:");
   Serial.print(Distance);
   Serial.println("cm");
   delay(500);
