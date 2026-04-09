@@ -28,8 +28,9 @@ void loop()
 
     display.setTextSize(2);
     display.setTextColor(SSD1306_WHITE);
-    display.setCursor(i, 25);
+    display.setCursor(i, i+5);
     display.print(F("CherryIoT"));
+    
 
     display.display();
     delay(20);
